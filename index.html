@@ -46,6 +46,9 @@ footer{padding:80px 56px;display:flex;justify-content:space-between;align-items:
 .modelling-entry{margin-top:16px;max-width:380px}
 .modelling-entry a{display:block}
 .modelling-entry a:hover{border-color:#f5a050}
+.modelling-previews{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-bottom:16px}
+.modelling-previews img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;border-radius:6px;background:#151a21}
+.modelling-previews img[hidden],.modelling-previews[hidden]{display:none}
 .modelling-entry h3{margin-top:0}
 .modelling-entry span{display:inline-block;margin-top:12px;color:#f5a050;font-weight:600}
 
@@ -112,6 +115,11 @@ footer{padding:80px 56px;display:flex;justify-content:space-between;align-items:
 <div class="lane"><small class="mono">03 / AI</small><h3>3D + AI video</h3><p>Real 3D products with Runway and Higgsfield environments and variations.</p></div></div>
 <div id="modelling" class="modelling-entry">
 <a class="lane" href="modelling/">
+  <div class="modelling-previews">
+    <img src="https://drive.google.com/thumbnail?id=1lJA1BhNN-nASpaCcRtRmO0Vor_d_SzqO&amp;sz=w480" alt="Curved sofa wireframe" loading="lazy" decoding="async" onerror="this.hidden=true;if(!this.parentElement.querySelector('img:not([hidden])'))this.parentElement.hidden=true">
+    <img src="https://drive.google.com/thumbnail?id=1EkNlVFHUkD9UcgRDU8DLuCRlkJWbaywg&amp;sz=w480" alt="Headphones wireframe" loading="lazy" decoding="async" onerror="this.hidden=true;if(!this.parentElement.querySelector('img:not([hidden])'))this.parentElement.hidden=true">
+    <img src="https://drive.google.com/thumbnail?id=1zT50W40lZD3MVZfjzY57FbDvQLtpJ4Ra&amp;sz=w480" alt="Bugatti wireframe" loading="lazy" decoding="async" onerror="this.hidden=true;if(!this.parentElement.querySelector('img:not([hidden])'))this.parentElement.hidden=true">
+  </div>
   <h3>Modelling &amp; Asset Prep</h3>
   <p>Renders, wireframes and turntables.</p>
   <span>View gallery →</span>
